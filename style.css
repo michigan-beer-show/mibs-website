@@ -1,0 +1,73 @@
+body {
+  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a4a4a;
+  text-align: left;
+  background-color: #fff;
+}
+
+a:link {
+  color: #32beeb;
+  opacity: 1;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #32beeb;
+  opacity: 1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5bcbef;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+a:active {
+  color: #32beeb;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.h1 {
+  font-family: "Merriweather",serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.links {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.hero {
+  font-family: "Merriweather",serif;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.site-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 0.8em;
+  width: 100%;
+  margin-bottom: 24px;
+  font-variant: small-caps;
+}
+
+.p {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.7em;
+  padding-bottom: 8px;
+}
+
+.sitewrapper {
+  width: 70%;
+  max-width: 900px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

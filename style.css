@@ -1,9 +1,17 @@
-body {
+p {
   font-family: 'Merriweather', serif;
-  font-family: 'Open Sans', sans-serif;
   color: #4a4a4a;
-  text-align: left;
+  text-align: center;
   background-color: #fff;
+  font-size: 1em;
+}
+
+.label {
+  font-family: 'Merriweather', serif;
+  color: #4a4a4a;
+  text-align: center;
+  background-color: #fff;
+  font-size: 1em;
 }
 
 a:link {
@@ -31,10 +39,21 @@ a:active {
 }
 
 .h1 {
-  font-family: "Merriweather",serif;
-  font-size: 1.2em;
-  font-weight: 400;
+  font-family: "Open Sans",sans-serif;
+  font-size: 2em;
+  font-weight: 700;
   margin-bottom: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.h2 {
+  font-family: "Open Sans",sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .links {
@@ -48,14 +67,6 @@ a:active {
   font-size: 1.2em;
 }
 
-.site-title {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  font-size: 1em;
-  width: 100%;
-  margin-bottom: 24px;
-  font-variant: small-caps;
-}
 
 .podcast {
   font-size: 1em;
@@ -70,4 +81,27 @@ a:active {
   margin: auto;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.button {
+  background: #32beeb;
+  border-radius: 2px;
+  color: #FFF;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  float: right;
+}
+
+.email {
+  background: #F7F8F9;
+  border: 1px solid #C3D0D3;
+  border-radius: 2px;
+  height: 36px;
+  font-size: 1em;
 }

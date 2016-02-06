@@ -61,6 +61,12 @@ a:active {
   margin-bottom: 40px;
 }
 
+svg {
+  display: block;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
 .hero {
   font-family: "Merriweather",serif;
   font-weight: 700;
@@ -95,7 +101,6 @@ a:active {
   padding-top: 10px;
   padding-bottom: 10px;
   border: none;
-  float: right;
 }
 
 .email {
@@ -104,4 +109,27 @@ a:active {
   border-radius: 2px;
   height: 36px;
   font-size: 1em;
+  height: 39px;
+  width: 65%;
+}
+
+input::-webkit-input-placeholder {
+  padding-left: 8px;
+}
+
+input::-moz-placeholder {
+  padding-left: 8px;
+}
+
+input::-ms-input-placeholder {
+  padding-left: 8px;
+}
+
+.email-form {
+  margin-bottom: 5%;
+}
+
+.soundcloud-embedded-player {
+  margin-bottom: 5%;
+  display: block;
 }
